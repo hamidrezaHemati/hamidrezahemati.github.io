@@ -13,8 +13,20 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## AISL Director
+{% include list.html data="members" component="portrait" filter="role == 'Director'" %}
+
+## Research Staff
+{% include list.html data="members" component="portrait" filter="role == 'Research'" %}
+
+<!-- ## Master Students
+{% include list.html data="members" component="portrait" filter="role == 'master'" %}
+
+## Bachelor Students
+{% include list.html data="members" component="portrait" filter="role == 'bachelor'" %}
+
+## Alumni
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" %} -->
 
 {% include section.html background="images/background.jpg" dark=true %}
 
