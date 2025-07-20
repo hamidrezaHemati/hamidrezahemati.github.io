@@ -75,7 +75,7 @@ Meet the members of our lab, including faculty, researchers, and students workin
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/people/people.jpg"
   link="team"
   title="Our Team"
   text=text
