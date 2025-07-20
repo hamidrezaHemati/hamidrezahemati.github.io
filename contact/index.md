@@ -27,7 +27,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://www.google.com/maps/place/Computer+Engineering+Department/@35.703481,51.4082728,18.25z/data=!4m6!3m5!1s0x3f8e010d1bda6451:0xb68840e07e8e513!8m2!3d35.7039217!4d51.4083635!16s%2Fg%2F120zjpzy?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
 %}
 
 {% include section.html %}
