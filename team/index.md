@@ -12,29 +12,19 @@ Explore the team below to learn more about the people behind our work.
 
 {% include section.html %}
 
-<div style="text-align: center">
-  <h2>AISL Director</h2>
-</div>
+## AISL Director
 {% include list.html data="members" component="portrait" filter="role == 'Director'" %}
 
-<div style="text-align: center">
-  <h2>Research Staff</h2>
-</div
+## Research Staff
 {% include list.html data="members" component="portrait" filter="role == 'Research'" %}
 
-<div style="text-align: center">
-  <h2>M.Sc. Students</h2>
-</div>
+## Master Students
 {% include list.html data="members" component="portrait" filter="role == 'Master'" %}
 
-<div style="text-align: center">
-  <h2>Undergraduate Students</h2>
-</div>
+## Undergraduage Students
 {% include list.html data="members" component="portrait" filter="role == 'Bachelor'" %}
 
-<div style="text-align: center">
-  <h2>Alumni</h2>
-</div>
+## Alumni
 {% include list.html data="members" component="portrait" filter="role == 'Alumni'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}

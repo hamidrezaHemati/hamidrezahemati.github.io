@@ -1,9 +1,10 @@
 ---
 ---
 
-# hamidrezaHemati's Website
+# Autonomous Intelligents Systems Lab
 
-An engaging 1-3 sentence description of your lab.
+Theory is when you know everything but nothing works. Practice is when everything works but no one knows why. In our lab, theory and practice are combined: Nothing works and no one knows why.
+
 
 {% include section.html %}
 
@@ -11,7 +12,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Learn about our current research focus, scientific goals, and contributions to advancing knowledge in our field.
 
 {%
   include button.html
@@ -34,7 +35,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore the ongoing and completed projects in our lab that apply research to real-world challenges and innovations.
 
 {%
   include button.html
@@ -59,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the members of our lab, including faculty, researchers, and students working together on cutting-edge science.
 
 {%
   include button.html
