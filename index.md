@@ -27,7 +27,7 @@ Learn about our current research focus, scientific goals, and contributions to a
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/research_page_image.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -50,7 +50,7 @@ Explore the ongoing and completed projects in our lab that apply research to rea
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/projects.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -75,7 +75,7 @@ Meet the members of our lab, including faculty, researchers, and students workin
 
 {%
   include feature.html
-  image="images/people/people.jpg"
+  image="images/home/people.jpg"
   link="team"
   title="Our Team"
   text=text

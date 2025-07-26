@@ -1,19 +1,19 @@
 # site properties and page defaults
 title: Autonomous Intelligent Systems Lab
 subtitle: Tehran Polytechnic
-description: Autonomous Intelligent Systems Lab
+description: Autonomous Intelligent Systems Lab Webpage
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@hamidrezaHemati.com
+  email: mjavan@aut.ac.ir
   orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  google-scholar: https://scholar.google.com/citations?user=6Za8HuYAAAAJ&hl=en
   github: hamidrezaHemati
   twitter: hamidrezaHemati
-  youtube: hamidrezaHemati
+  linkedin: https://ir.linkedin.com/in/mjavan
 
 ### jekyll settings
 
