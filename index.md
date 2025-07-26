@@ -38,12 +38,13 @@ Learn about our current research focus, scientific goals, and contributions to a
 Explore the ongoing and completed projects in our lab that apply research to real-world challenges and innovations.
 
 {%
-  include button.html
+  include feature.html
+  video="images/home/projects.MP4"
   link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
+  title="Our Projects"
   flip=true
   style="bare"
+  text=text
 %}
 
 {% endcapture %}

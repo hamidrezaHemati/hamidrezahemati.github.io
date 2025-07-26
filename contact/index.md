@@ -9,17 +9,15 @@ nav:
 
 We welcome inquiries from prospective students, collaborators, industry partners, and anyone interested in our research on autonomous systems, AI, robotics, and computer vision.
 
-Autonomous Intelligent Systems Laboratory (AISL)
-Department of Computer Engineering
-Amirkabir University of Technology (Tehran Polytechnic)
+Autonomous Intelligent Systems Laboratory (AISL)<br>
+Department of Computer Engineering<br>
+Amirkabir University of Technology (Tehran Polytechnic)<br>
 Hafez Ave, Tehran, Iran
 
-👥 Visiting the Lab
-We are located at:
 
-1st Floor – Hoosh Company
-
-3rd Floor – AISL Lab
+Visiting the Lab, We are located at:
+ - 1st Floor – Hoosh Company
+ - 3rd Floor – AISL Lab
 
 Want to Collaborate?
 Whether you're a student, researcher, or industry professional, we are open to new collaborations. Contact us to discuss research projects, internship opportunities, or academic-industrial partnerships.
