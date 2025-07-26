@@ -27,7 +27,7 @@ Explore the team below to learn more about the people behind our work.
 ## Alumni
 {% include list.html data="members" component="portrait" filter="role == 'Alumni'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+<!-- {% include section.html background="images/background.jpg" dark=true %} -->
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
