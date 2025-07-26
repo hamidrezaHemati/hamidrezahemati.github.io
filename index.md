@@ -50,7 +50,7 @@ Explore the ongoing and completed projects in our lab that apply research to rea
 
 {%
   include feature.html
-  video="videos/projects_preview.mp4"
+  image="images/home/projects.jpg"
   link="projects"
   title="Our Projects"
   flip=true

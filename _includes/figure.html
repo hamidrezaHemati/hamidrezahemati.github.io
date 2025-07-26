@@ -6,17 +6,34 @@
     class="figure-image"
     aria-label="{{ include.caption | default: "figure link" | regex_strip }}"
   >
-    <img
-      src="{{ include.image | relative_url | uri_escape }}"
-      style="
-        width: {{ include.width | default: "auto" }};
-        max-height: {{ include.height | default: "unset" }};
-      "
-      alt="{{ include.caption | default: "figure image" | regex_strip }}"
-      loading="lazy"
-      {% include fallback.html %}
-    >
+    {% assign file_ext = include.image | split: '.' | last | downcase %}
+    
+    {% if file_ext == 'mp4' or file_ext == 'webm' or file_ext == 'ogg' %}
+      <video
+        style="
+          width: {{ include.width | default: '100%' }};
+          max-height: {{ include.height | default: 'unset' }};
+        "
+        controls
+        preload="metadata"
+      >
+        <source src="{{ include.image | relative_url | uri_escape }}" type="video/{{ file_ext }}">
+        Your browser does not support the video tag.
+      </video>
+    {% else %}
+      <img
+        src="{{ include.image | relative_url | uri_escape }}"
+        style="
+          width: {{ include.width | default: 'auto' }};
+          max-height: {{ include.height | default: 'unset' }};
+        "
+        alt="{{ include.caption | default: "figure image" | regex_strip }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    {% endif %}
   </a>
+
   {% if include.caption %}
     <figcaption class="figure-caption">
       {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
